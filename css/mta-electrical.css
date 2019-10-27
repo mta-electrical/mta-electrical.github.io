@@ -1,0 +1,84 @@
+/*
+ * MTA Electrical Services for Bootstrap
+ */
+
+@font-face {
+    font-family: "Impact-local";
+    src: url("../assets/fonts/impact.ttf");
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding-top: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+	font-family: Impact, Impact-local, fantasy;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/** Titles **/
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 1.75rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+
+/** Nav bar **/
+.navbar {
+	box-shadow: 0px 0px 12px #444;
+}
+.navbar-brand img {
+	height: 2.5rem;
+}
+.navbar-nav > li {
+	font-size: 1.25rem;
+	padding-left: 0.5rem;
+	padding-right: 1.5rem;
+}
+
+/** Banner **/
+.banner {
+	padding: 0;
+}
+.banner img {
+	object-fit: none;
+	width: 100%;
+	max-height: 250px;
+}
+
+/** Services **/
+#services ul {
+	font-family: Impact, Impact-local, fantasy;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+#services li {
+	padding-bottom: 0.15em;
+}
+
+/** Footer **/
+footer p {
+	margin: 0;
+	padding-bottom: 0.2rem;
+	padding-top: 0.2rem;
+}
+
+/** Misc **/
+.list-unstyled {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.reverse {
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	unicode-bidi:bidi-override;
+	direction:rtl;
+}
