@@ -11,21 +11,26 @@ body {
 	font-family: Arial, sans-serif;
 	padding-top: 4rem;
 }
+.glyphicon {
+	font-family: Arial, sans-serif;
+}
 
-h1, h2, h3, h4, h5, h6, .navbar {
+/** Titles **/
+h1, h2, h3, h4, h5, h6, .navbar, .emphasis {
 	font-family: Impact, Impact-local, fantasy;
 	font-weight: normal;
 	text-transform: uppercase;
 }
-
-/** Titles **/
 h1 {
 	font-size: 2.5rem;
 }
 h2 {
-	font-size: 1.75rem;
+	font-size: 2.25rem;
 }
 h3 {
+	font-size: 1.75rem;
+}
+h4, .emphasis, .navbar-nav li {
 	font-size: 1.25rem;
 }
 
@@ -36,8 +41,7 @@ h3 {
 .navbar-brand img {
 	height: 2.5rem;
 }
-.navbar-nav > li {
-	font-size: 1.25rem;
+.navbar-nav li {
 	padding-left: 0.5rem;
 	padding-right: 1.5rem;
 }
@@ -52,14 +56,21 @@ h3 {
 	max-height: 250px;
 }
 
+/** Home **/
+#home {
+	background-image: url(../assets/images/banner-cables.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 /** Services **/
 #services ul {
-	font-family: Impact, Impact-local, fantasy;
-	font-size: 1.5em;
-	text-transform: uppercase;
+	padding-left: 1.25rem;
 }
 #services li {
-	padding-bottom: 0.15em;
+	padding-bottom: 0.25rem;
+	padding-top: 0.25rem;
 }
 
 /** Footer **/
@@ -70,7 +81,7 @@ footer p {
 }
 
 /** Misc **/
-.list-unstyled {
+ul {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 }
