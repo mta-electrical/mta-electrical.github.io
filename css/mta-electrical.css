@@ -27,13 +27,13 @@ h2 {
 h3 {
 	font-size: 1.75rem;
 }
-h4, .emphasis, .navbar-nav li {
+h4, .emphasis, .navbar-nav {
 	font-size: 1.25rem;
 }
 
 /** Nav bar **/
 .navbar {
-	box-shadow: 0px 0px 12px #444;
+	box-shadow: 10px 0 5px -2px #444;
 }
 .navbar-brand img {
 	height: 2.5rem;
@@ -49,6 +49,9 @@ h4, .emphasis, .navbar-nav li {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+}
+#home .card {
+	background: rgba(0, 170, 221, 0.75);
 }
 
 /** Services **/
