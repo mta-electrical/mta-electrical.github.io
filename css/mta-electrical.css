@@ -33,7 +33,7 @@ h4, .emphasis, .navbar-nav {
 
 /** Nav bar **/
 .navbar {
-	box-shadow: 10px 0 5px -2px #444;
+	box-shadow: 0px 0px 12px #444;
 }
 .navbar-brand img {
 	height: 2.5rem;
